@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-3.5">
       <div className="flex flex-wrap">
-        <div className="w-full lg:w-1/2 lg:p-14">
+        <div className="w-full lg:w-1/2 lg:p-12">
          <div className="flex flex-col items-center lg:items-start">
             <motion.h1 
              variants={container(0)}
@@ -40,7 +40,7 @@ const Hero = () => {
             </motion.p>
          </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-14">
+        <div className="w-full lg:w-1/2 lg:p-12">
          <div className="flex justify-center">
             <motion.img 
             initial={{ x: 100, opacity: 0 }} 
