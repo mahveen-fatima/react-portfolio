@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+// import profilePic from "../assets/kevinRushProfile.png";
+import heroimage from "../assets/heroimage.jpg"
 import { motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -46,7 +47,8 @@ const Hero = () => {
             initial={{ x: 100, opacity: 0 }} 
             animate={{ x: 0, opacity: 1 }}
             transition={{duration: 1, delay: 1.2 }}
-            src={profilePic} 
+            // src={profilePic}
+            src={heroimage}
             alt="kevin rush" />
          </div>
         </div>
